@@ -14,6 +14,9 @@ unset HISTFILE
 export VISUAL=nvim
 export EDITOR=nvim
 export BROWSER=firefox
+
+shopt -s globstar
+
 . /home/patrick/.nix-profile/etc/profile.d/nix.sh
 function nx {
     nix-shell --pure --command "$*"
