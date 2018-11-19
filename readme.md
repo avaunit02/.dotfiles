@@ -1,4 +1,4 @@
-# paddygords' dotfiles
+# paddygord's dotfiles
 
 ```
 sudo pacman -Syu git
