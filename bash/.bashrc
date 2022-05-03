@@ -47,7 +47,3 @@ _xpaste() {
 bind -m vi -x '"dd": _xcut'
 bind -m vi -x '"yy": _xcopy'
 bind -m vi -x '"p": _xpaste'
-
-if [ -e /home/patrick/.nix-profile/etc/profile.d/nix.sh ]; then . /home/patrick/.nix-profile/etc/profile.d/nix.sh; fi # added by Nix installer
-
-alias nx='nix-shell --option sandbox relaxed'
